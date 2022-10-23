@@ -1,0 +1,25 @@
+{
+  "name": "kafka-app_shalaby",
+  "version": "1.0.0",
+  "description": "Kafka-app_Shalaby",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shAm1n/Kafka-app_Shalaby.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shAm1n/Kafka-app_Shalaby/issues"
+  },
+  "homepage": "https://github.com/shAm1n/Kafka-app_Shalaby#readme",
+  "dependencies": {
+    "avsc": "^5.7.6",
+    "node-modules": "^1.0.1",
+    "node-rdkafka": "^2.14.0"
+  }
+}
